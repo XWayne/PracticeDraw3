@@ -9,7 +9,7 @@ import android.view.View;
 
 public class Practice07SetUnderlineTextView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
-    String text = "Hello HenCoder";
+    String text = "Hello HenCoder gg";
 
     public Practice07SetUnderlineTextView(Context context) {
         super(context);
@@ -25,7 +25,7 @@ public class Practice07SetUnderlineTextView extends View {
 
     {
         paint.setTextSize(60);
-
+        paint.setUnderlineText(true);
         // 使用 Paint.setUnderlineText() 来设置下划线
     }
 
